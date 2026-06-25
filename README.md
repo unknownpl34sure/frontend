@@ -1,7 +1,7 @@
 # Studwork — фронтенд
 
 Биржа фриланса для студентов. React + Vite + Tailwind CSS v4, работает поверх
-FastAPI-бэкенда из папки [`../backend`](../backend).
+FastAPI-бэкенда из папки [`backend`](https://github.com/freelance-bibi/backend)).
 
 ## Стек
 
@@ -21,7 +21,7 @@ npm run dev
 Приложение поднимется на `http://localhost:5173` (если порт занят — Vite выберет
 следующий свободный).
 
-Сначала запустите бэкенд (см. [`backend`]([frontend](https://github.com/freelance-bibi/backend))) —
+Сначала запустите бэкенд (см. [`backend`](https://github.com/freelance-bibi/backend))) —
 по умолчанию он ожидается на `http://localhost:8000`.
 
 ## Конфигурация
