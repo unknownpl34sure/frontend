@@ -1,4 +1,4 @@
-# Studwork — фронтенд
+# БГИТУ Фриланс — фронтенд
 
 Биржа фриланса для студентов. React + Vite + Tailwind CSS v4, работает поверх
 FastAPI-бэкенда из папки [`backend`](https://github.com/freelance-bibi/backend)).
