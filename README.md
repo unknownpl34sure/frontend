@@ -21,7 +21,7 @@ npm run dev
 Приложение поднимется на `http://localhost:5173` (если порт занят — Vite выберет
 следующий свободный).
 
-Сначала запустите бэкенд (см. [`../backend/README.md`](../backend/README.md)) —
+Сначала запустите бэкенд (см. [`backend`]([frontend](https://github.com/freelance-bibi/backend))) —
 по умолчанию он ожидается на `http://localhost:8000`.
 
 ## Конфигурация
