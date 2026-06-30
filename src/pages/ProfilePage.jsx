@@ -148,7 +148,7 @@ export default function ProfilePage() {
       <Card className="overflow-hidden">
         <div className="group relative h-40 sm:h-48">
           {user.banner_url ? (
-            <img
+            <img src={`${import.meta.env.VITE_API_URL}${user.banner_url}`} />
               src={user.banner_url}
               alt="Шапка профиля"
               className="size-full object-cover"
