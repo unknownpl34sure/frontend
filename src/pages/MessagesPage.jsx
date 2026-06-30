@@ -631,7 +631,7 @@ function Conversation({ chatId, currentUser, other, chatMeta, onBack, onSent }) 
                       className="block w-full cursor-zoom-in"
                     >
                       <img
-                        src={`${import.meta.env.VITE_API_URL}${m.image_url}`}
+                        src={m.image_url}
                         alt="Вложение"
                         className="max-h-72 w-full object-cover"
                         loading="lazy"
