@@ -30,6 +30,7 @@ import {
   MemberSince,
 } from "../components/ProfileSections";
 
+
 export default function ProfilePage() {
   const { user, refreshUser } = useAuth();
   const fileRef = useRef(null);
