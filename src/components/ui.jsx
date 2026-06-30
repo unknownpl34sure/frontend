@@ -132,7 +132,8 @@ export function PageLoader({ label = "Загрузка..." }) {
 
 export function Avatar({ user, name, src, size = 40, className = "" }) {
   const displayName = name || user?.name || user?.username || "?";
-  const imgSrc = src || user?.avatar_url;
+  const API_URL = import.meta.env.VITE_API_URL || '';
+  const imgSrc = src || (user?.avatar_url ? `${API_URL}${user.avatar_url}` : null);
   const style = { width: size, height: size };
   if (imgSrc) {
     return (
